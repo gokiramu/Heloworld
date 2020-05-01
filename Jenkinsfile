@@ -2,7 +2,7 @@ node{
    stage('SCM Checkout'){
      git 'https://github.com/gokiramu/Heloworld' 
    }
-   stage('Compile-Package){
+   stage('Compile-Package'){
     sh 'mvn package'
    } 
    
